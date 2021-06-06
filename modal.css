@@ -1,0 +1,223 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+}
+body{
+    background-image: url("image/bo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: white;
+    height: 630px;
+    z-index: 1;
+    width:1120px;
+    left:411px;
+    position:relative;
+    border-radius: 20px;
+    top:220px;
+}
+.inner_container{
+    
+    width:880px;
+    height:480px;
+    z-index: 2;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.poster{
+    width:30%;
+    height: 83%;
+   
+    float:left;
+    border-radius: 20px;
+    margin-top:30px;
+}
+.poster_img{
+    width:100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 20px;
+    position: relative;
+}
+.reservation{
+    width:60%;
+    height: 83%;
+    float:right;
+    margin-top:30px;
+    border-radius: 20px;
+}
+.select_movie{
+    width: 100%;
+    height: 10%;
+    border-radius: 20px;
+}
+.movie_name_place{
+    padding-left:20px;
+    width:17%;
+    height: 100%;
+    font-size: 20px;
+    float:left;
+    border-right: 1px solid;
+    background-color: darkred;
+    color:white;
+}
+
+
+.movie_name_date{
+    padding-left:50px;
+    width:27%;
+    height: 100%;
+    font-size: 20px;
+    float:left;
+    border-right: 1px solid;
+    background-color: darkred;
+    color:white;
+}
+
+.movie_name_time{
+    padding-left:50px;
+    width:26%;
+    height: 100%;
+    font-size: 20px;
+    float:left;
+    border-right: 1px solid;
+    background-color: darkred;
+    color:white;
+}
+
+.movie_name{
+    padding-left:50px;
+    width:30%;
+    height: 100%;
+    font-size: 20px;
+    float:left;
+    background-color: darkred;
+    color:white;
+}
+
+.seat_reservation{
+    width: 100%;
+    height: 76%;
+    
+}
+.seat_reservation_left{
+    width:70%;
+    height:100%;
+    float: left;
+}
+.seat_reservation_right{
+    width:30%;
+    height:100%;
+   
+    float: left;
+    position: relative;
+}
+.ticketing{
+    width:50px;
+    height:30px;
+    float:right;
+}
+.ticketing input{
+    width:100%;
+    height:100%;
+    border-radius:10px;
+    background-color: darkred;
+    color:white;
+    
+}
+.color_explanation{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-40%, -30%);
+    
+    width:130px;
+}
+.color_explanation table{
+    width:100%;
+
+}
+.selected{
+    width:35px;
+    background-color:darkred;
+}
+.reserved{
+    width:35px;
+    background-color:cornflowerblue;
+}
+.empty{
+    width:35px;
+    background-color: pink;
+}
+.screen{
+    width:100%;
+    height:10%;
+    background-color:gainsboro;
+    margin:0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+.seat{
+    width:100%;
+    height:84%;
+   
+    margin-top:18px;
+}
+.seat_left{
+    width:20%;
+    height:90%;
+    
+    float: left;
+    margin:13px 0px;
+}
+.seat_middle{
+    width:40%;
+    height:90%;
+    background-color:ivory;
+    float: left;
+    margin:13px 36px;
+}
+.seat_right{
+    width:20%;
+    height:90%;
+    
+    float: left;
+    margin:13px 0px;
+}
+.seat_chair{
+    width:75px;
+    height: 230px;
+    
+}
+.seat_chair_middle{
+    width:147px;
+    height: 230px;
+    
+    
+}
+.seat_chair > tr,td{
+    border:7px solid white;
+    background-color:pink;
+}
+
+.total_price_a{
+    width: 100%;
+    height: 9%;
+  
+    margin-top:10px;
+    padding-top:13px;
+}
+.total_price_b{
+    width: 100%;
+    height: 9%;
+  
+    margin-top:10px;
+   
+}
+
+
